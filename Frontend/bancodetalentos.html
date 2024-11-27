@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Talentos</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <div class="separator"></div>
+        <h1 class="title">Banco de Talentos</h1>
+    </div>
+
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Pesquisar por nome">
+            <button id="toggleFiltersButton">Filtros</button>
+            <button id="addButton" onclick="openForm()">+</button>
+        </div>
+
+        <div class="filter-container" style="display: none;">
+            <input type="number" id="ageFilter" placeholder="Filtrar por idade">
+            <select id="courseFilter">
+                <option value="">Filtrar por curso</option>
+                <option value="Administração">Administração</option>
+                <option value="Engenharia">Engenharia</option>
+                <option value="Direito">Direito</option>
+            </select>
+            <input type="text" id="skillsFilter" placeholder="Filtrar por habilidades">
+        </div>
+
+        <div id="formContainer" class="form-container" style="display: none;">
+            <h3>Adicionar Novo Membro</h3>
+            <input type="text" id="nameInput" placeholder="Nome e Sobrenome" required>
+            <input type="number" id="ageInput" placeholder="Idade" required>
+            <input type="text" id="skillsInput" placeholder="Habilidades" required>
+            <textarea id="experienceInput" placeholder="Experiências" required></textarea>
+            <input type="text" id="phoneInput" placeholder="Telefone" required>
+            <input type="email" id="emailInput" placeholder="Email" required>
+            <input type="text" id="courseInput" placeholder="Curso" required>
+            <input type="url" id="linkedinInput" placeholder="Link do LinkedIn">
+            <label for="photoInput">Foto (opcional):</label>
+            <input type="file" id="photoInput" accept="image/*">
+            <label for="pdfInput">Currículo (PDF):</label>
+            <input type="file" id="pdfInput" accept="application/pdf">
+            <button onclick="addMember()">Adicionar Membro</button>
+            <button onclick="closeForm()">Cancelar</button>
+        </div>
+
+        <div id="cardsContainer"></div>
+    </div>
+</body>
+</html>
