@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Banco de Talentos FCAP JR. Consultoria</title>
+<link rel="stylesheet" href="./style.css">
+<script src="./script.js"></script>
+<script>
+function loginsection(event){
+event.preventDefault();
+
+var login = document.getElementById('login').value;
+var senha = document.getElementById('senha').value;
+
+if (login === 'admin' && senha === '1234'){
+window.location.href ='bancodetalentos.html';
+return true
+} else {
+alert('usuário ou senha inválidos');
+return false
+}
+}
+
+</script>
+
+</head>
+<body>
+<div class="top-right">
+<div class="separator"></div>
+<span>BANCO DE TALENTOS</span>
+</div>
+<div class="content-wrapper">
+<div class="highlight-text">
+<h1>
+<span class="plain-text">A </span>
+<span class="highlight">conexão para o futuro</span>
+</h1>
+<h2 class="sub-text">da sua empresa</h2>
+</div>
+</div>
+<div class="container">
+<div class="header"></div>
+<div class="main-content">
+<div class="login-form">
+<h3>ACESSE SUA CONTA</h3>
+<form id="login-form" onsubmit="return loginsection(event)">
+<label for="login">Login</label>
+<input type="text" id="login" required>
+<label for="senha">Senha</label>
+<input type="password" id="senha" required>
+<button type="submit" class="login-button">ACESSE AGORA</button>
+</form>
+</div>
+</div>
+</div>
+
+<div class="logo">
+<img src="/assets/Logo Branca.png" alt="Logo">
+</div>
+
+</body>
+
+</html>
