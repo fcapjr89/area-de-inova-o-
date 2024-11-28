@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "moskit-437500",
+  "private_key_id": "584bca7cfbb1d54037016ac99ff2d41dd82ff582",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0sh7C4pJApsNl\nJDJH7vsTtDAz+Wk+0iiaJu1b+UhyLNbnKQNzaNbM3l4B2LhHmWv9ICRxQ8Mc40T3\nTZuicn1jvnI5/6WSgMuYpNxeUwLbLOXqhcecgLIDtd5jJmOJcMg3bV/ygJ7rHrzj\nGoU8Uxc3NNH3nZIyhwMx9AK9Ic1jQfho5+oo1Ni8OZnXPs/V2RYGQpozJXTSH56Z\nCvQpvWw2pE8PRADdRvJMVTV9Zn3ED2IwBBIuabIgAn3s1U5Q7+7hHNXUfYQew3ta\nHttTI5yh7x7MOclvAgY+cVW9yfqU/2eF59f8bhnORursMEF76gfA06wWfC9ya7nE\nX5dUfbwxAgMBAAECggEAMcqfVV5vpKcPUrB9tnqw7wYI/lls2eW5UHkHkP+JKgUX\nFs2jaMrr3bost1+LsBcjvbV8tUVR34T0vRzClSntSW3yNe8vJcad06siGk/Piqu9\nkzlX/tUruIAGDtZGOVo9oaBe/wjYQbvPmtj0++F9lTXV4eCmp4uyorI1iv5khUPy\nQtJK3jtM5oorDNaxeLH9BdAU7b15hbsDA8PAL5v25Vt2ryCvNjTK8U/6IjTGcUNt\nnYWFdIfaao4m/CelD4LuJcSGpTUh7c5bUhoa3AX04otzqLRXS8YY99KGQnSBbGma\nRGEP3emo8xSbZNNMA/R6WxzkD+ehFvSUlz+xPrRmfQKBgQDve5gQVo66f0UyFUU7\nbY9upGcHSwYhf9vPBSxVvXR80eHYl5VMaWku2yk+VdTHQO6bjdDvrwgDdwmo/j5g\nX8E2nwFe3vm4KyoyQNUjprCK3kP2FqCMBdY9SiG0QyO7G0ee9+mEDXv1JBRTfLel\nv8AZKSk7P7f5fr74xF31bQzqawKBgQDBKI8JX6V2Xv1exSsI127tB9N0bm6UEsOb\n4b2Ih8/lNfl6cUiw+yjdT7Qzy71r+b0JeRaOh8FMao/wC718BgVfuIIBmgq0lz1a\nnQ9MutrLcgowvqvLwxxSqKXnPQCbH3XihmBdKYM76rB+b/xfz34WzPow7F/q1yTJ\nVnl3oFcS0wKBgHpnSJTpOPB3xo1Ps+ApIouhugtPPGX47QeGFGAKgrSdrfq/l47D\nvgA2AoGa6zOgq5SUSruHUeg7epOGx6kIqD/by56LB0YrwdiHrKkZNNj1u/TXId4P\nya3v6wQw4N1slxHYkuFs5vOoKj912oP8WxpBIJLpAYajUsbhz0h3IYfbAoGACEdt\nwhAYbndp0rsOuiVJut0gAhiNoskfGzpUvlpb3c4vcEEUxYkuWjYFWkb8Snl80cAf\n6GIHNfhHTRmjuIIljtHAuMLafJ0S4yRiOH61zAyKRUaW5HfraduSqNOjiAKUMe5i\niPuzhUjs4a55Gb4yAFYuzxQClHU+PWb4c9kqgkMCgYEA1n384R3VVxY5nafTZH0R\nllr1O9dEl60n0lW+R4X2owY8bMWwzD4ED5alascS49VCa3aSdvTlfQ+lPtsTHaEW\nN86NAxSUe0wZAhPuaEMPC8dUFcnb/ZfosRsfRd29xH0VhLb/e9wpFma43Nj2W8la\nHg5W+u06sq3BXOS28dkO/EE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dadosmoskit@moskit-437500.iam.gserviceaccount.com",
+  "client_id": "112680055023094232670",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dadosmoskit%40moskit-437500.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
