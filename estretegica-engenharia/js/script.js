@@ -855,7 +855,217 @@ const data = {
             ],
         },
         "Representante da Direção": {
-
+            "Assinatura de Documentos": [
+                "A01: Diariamente",
+                "A02: Checar demandas recebidas.",
+                "A03: Qual é o tipo da demanda?",
+                "Caso 'DOCUMENTOS EM GERAL': Ir para A04 e pular para A07.",
+                "Caso 'CONTRATO OU DISTRATO DE PJ E TERCEIROS': Ir para A05 e pular para A07.",
+                "Caso 'CONTRATOS COM ORGÃOS PÚBLICOS OU CLIENTES PRIVADOS': Ir para A06 e seguir leitura.",
+                "A04: Receber os documentos por e-mail.",
+                "A05: Abrir GED.",
+                "A06: Abrir SEI, DocSign ou links externos.",
+                "A07: Analisar o documento realizando triagem (valores, data de pagamento, escopo, etc.).",
+                "A08: Há algum problema no documento?",
+                "Caso SIM: Ir para A09 e seguir leitura.",
+                "Caso NÃO: Ir para A12 e segui leitura.",
+                "A09: Solicitar a justificação do problema, e o envio do documento corrigido por WhatsApp, Teams ou E-mail.",
+                "A10: Aguardar resposta do demandante.",
+                "A11: Receber resposta com documento corrigido ou justificativa.",
+                "A12: Enviar mensagem ao CEO informando que o documento será assinado, incluindo um resumo da triagem e justificativa para assinatura por WhatsApp.",
+                "A13: Assinar o documento no E-mail, GED ou SEI.",
+                "A14: Enviar o documento para o demandante.",
+                "A15: Documento assinado."
+            ],
+            "Autorização de Pagamentos e Transferências": [
+                "A01: Quando há demanda (segundas, quartas e sextas).",
+                "A02: Checar demandas recebidas do analista financeiro via Teams.",
+                "A03: Abrir plataforma do banco informado na demanda.",
+                "A04: Acessar aba de notificações.",
+                "A05: Acessar aba de pagamentos e transferências.",
+                "A06: Aguardar autorização do CEO.",
+                "A07: Autorizar pagamento ou transferência.",
+                "A08: Enviar confirmação de autorização para o analista financeiro via Teams.",
+                "A09: Processo finalizado."
+            ],
+            "Rateio de Passagens e Hospedagens": [
+                "A01: Mensalmente.",
+                "A02: Acessar Pontestur.",
+                "A03: Acessar aba de consulta.",
+                "A04: Acessar solicitação necessária, inserida pelo operacional administrativo.",
+                "A05: Checar solicitação.",
+                "A06: Anotar na planilha Rateio Pontestur compartilhada pelo OneDrive: informações do viajante, data de solicitação, valores, motivo da viagem, etc.).",
+                "A07: Há alguma dúvida sobre a solicitação?",
+                "Caso SIM: Ir para A15 e seguir leitura.",
+                "Caso NÃO: Ir de A08 até A14 e finzalizar processo em A24.",
+                "A08: Acessar aba consulta na Pontestur.",
+                "A09: Acessar aba solicitação, autorizando a cotação.",
+                "A10: Aprovar solicitação do adminstrativo.",
+                "A11: Receber cotação da Pontestur.",
+                "A12: Aprovar cotação da Pontestur.",
+                "A13: Anotar na planilha o rateio Pontestur compartilhada pelo OneDrive, informações finais da solicitação.",
+                "A14: Receber passagem emitida pela Pontestur.",
+                "A15: Acessar aba Calendário na Pontestur.",
+                "A16: Acessar solicitação necessária, com informações sobre o viajante.",
+                "A17: Enviar mensagme pelo Teams ou WhatsApp, para o administrativo e viajante, tirando dúvida necessária.",
+                "A18: Ajustar a planilha.",
+                "A19: Entrar em contato com a Pontestur, via Plantão no WhatsApp.",
+                "A20: Solicitar alteração necessária ou cancelamento, caso necessário.",
+                "A21: Enviar mensagem para o administrativo ou viajante, para resolver problemas relacionados à solicitação via e-mail ou WhatsApp.",
+                "A22: Aguardar a resolução do problema.",
+                "A23: Receber nova passagem com as alterações solicitadas.",
+                "A24: Rateio de passagens e hospedagens finalizado",
+            ]
+        }
+    },
+    "Setor de TI": {
+        "Gestor de TI": {
+            "Bloqueio ou Redirecionamento de Conta": [
+                "A01: Quando alguém é desligado ou há necessidade de repasse de conta.",
+                "A02: Receber relatório do DP ou gestor com informações sobre o bloqueio.",
+                "A03: Realizar bloqueio de conta de e-mail pelo painel de administração do Microsoft Office e outras plataformas necessárias.",
+                "A04: É necessário redirecionar a conta?",
+                "Caso SIM: Ir para A05 e seguir leitura.",
+                "Caso NÃO: Ir para A07 e seguir leitura.",
+                "A05: Receber comunicado para direcionar a conta por outra pessoa.",
+                "A06: Cadastrar novo destinatário.",
+                "A07: Manter backup da conta.",
+                "A08: Finalizar o processo de bloqueio ou redirecionamento."
+            ],
+            "Configuração de Equipamento": [
+                "A01: Quando receber chamado no sistema.",
+                "A02: Receber demanda para configurar novo equipamento.",
+                "A03: Verificar se há necessidade de comprar equipamento ou se há algum disponível.",
+                "A04: Há necessidade de compra?",
+                "Caso SIM: Ir para A06 e seguir leitura.",
+                "Caso NÃO: Ir para A05 e pular para A08.",
+                "A05: Pegar equipamento.",
+                "A06: Informar para o solicitante e solicitar equipamento ao setor de compras.",
+                "A07: Receber equipamento.",
+                "A08: Aguardar momento da configuração.",
+                "A09: Realizar configuração.",
+                "A10: Realizar treinamentos ao solicitante.",
+                "A11: Configuração finalizada."
+            ],
+            "Encerramento de Contrato": [
+                "A01: Quando o TI for acionado no encerramento de contrato pelo gestor.",
+                "A02: Localizar o contrato que deve ser encerrado.",
+                "A03: Migrar contrato para a pasta de contratos encerrados.",
+                "A04: Reorganizar os acessos conforme necessário.",
+                "A05: Encerramento de contrato concluído."
+            ],
+            "Início de Contrato": [
+                "A01: Quando houver um novo contrato.",
+                "A02: Receber solicitação do gestor para abertura da pasta do novo contrato, pelo e-mail.",
+                "A03: Criar pasta do contrato com a nomenclatura padrão, concedendo acesso ao gestor.",
+                "A04: Processo de Início de Contrato encerrado."
+            ],
+            "Lançamento de Nota Fiscal e Fatura de Software e Telefonia": [
+                "A01: Mensalmente.",
+                "A02: Verificar se é software/serviço ou telecom.",
+                "A03: Identificar o tipo de serviço.",
+                "Caso SOFTWARE/SERVIÇO: Ir para A04 e pular para A07.",
+                "Caso TELECOM: Ir para A05 e seguir leitura.",
+                "A04: Baixar nota fiscal.",
+                "A05: Acessar sites das operadoras.",
+                "A06: Baixar faturas necessárias para pagamento.",
+                "A07: Renomear arquivos de acordo com o padrão de nomenclatura.",
+                "A08: Acessar sistema.",
+                "A09: Lançar notas e faturas no sistema para financeiro.",
+                "A10: Aguardar chamado ser encerrado por alguém do financeiro.",
+                "A11: Receber e-mail informando que o chamado foi encerrado.",
+                "A12: Lançamento de nota fiscal e fatura encerrado."
+            ],
+            "Manutenção dos Equipamentos de TI": [
+                "A01: Quando há necessidade.",
+                "A02: Receber solicitação pelo sistema.",
+                "A03: Analisar demanda.",
+                "A04: A demanda pode ser resolvida remotamente?",
+                "Caso SIM: Ir para A05 e finalizar processo em A06.",
+                "Caso NÃO: Ir para A07 e seguir leitura.",
+                "A05: Resolver demanda remotamente.",
+                "A06: Manutenção finalizada.",
+                "A07: Agendar dia e horário com a pessoa.",
+                "A08: Aguardar momento marcado.",
+                "A09: Analisar problema.",
+                "A10: Qual o tipo de problema?",
+                "Caso FÍSICO: Ir para A11 e pular para A13.",
+                "Caso SOFTWARE: Ir para A12 e seguir leitura.",
+                "A11: Trocar equipamento.",
+                "A12: Reinstalar software ou mudar configuração na máquina que deu o problema.",
+                "A13: Solicitar que o usuário teste o software e observe o uso.",
+                "A14: Está tudo certo?",
+                "Caso SIM: Ir para A16 e finalizar processo em A17.",
+                "Caso NÃO: Ir para A15 e retornar para A09.",
+                "A15: Verificar novamente o problema.",
+                "A16: Encerrar chamado no sistema.",
+                "A17: Manutenção encerrada."
+            ],
+            "Monitoramento de Contrato": [
+                "A01: Mensalmente.",
+                "A02: Receber planilha da relação de contratos em andamento, do setor de qualidade.",
+                "A03: Verificar se os backups estão sendo realizados na nuvem.",
+                "A04: Estão sendo realizados os backups?",
+                "Caso SIM: Ir para A06 e finalizar processo.",
+                "Caso NÃO: Ir para A05.",
+                "A05: Acionar gestor pelo Teams para resolver o problema e migrar a pasta para a área de backup.",
+                "A06: Processo de monitoramento do contrato encerrado."
+            ],
+            "Renovação de Licenças Atuais": [
+                "A01: Quando há necessidade.",
+                "A02: Realizar levantamento de quem está usando o software pelo painel de controle do software e verificar vencimento das notas, por e-mail ou Teams.",
+                "A03: Realizar cotação.",
+                "A04: Repassar informações para a Diretoria com todos os detalhes da licença por e-mail.",
+                "A05: Receber retorno da Diretoria por e-mail.",
+                "A06: A licença será renovada?",
+                "Caso SIM: Ir para A08 e seguir leitura.",
+                "Caso NÃO: Ir para A07 e finalizar processo.",
+                "A07: Renovação cancelada.",
+                "A08: Entrar em contato com o fornecedor por e-mail.",
+                "A09: Realizar renovação.",
+                "A10: Renovação finalizada."
+            ],
+            "Suporte Técnico aos Colaboradores": [
+                "A01: Quando há necessidade.",
+                "A02: Receber demanda pelo Teams.",
+                "A03: Solicitar que o colaborador registre a demanda no HelpDesk pelo Teams.",
+                "A04: Receber chamado no HelpDesk.",
+                "A05: Entrar em contato com quem solicitou o chamado via Teams para entender a dificuldade.",
+                "A06: Entender o tipo de problema.",
+                "A07: Resolver problema via painel de controle ou atendimento presencial, conforme necessário.",
+                "A08: Encerrar chamado no HelpDesk.",
+                "A09: Suporte técnico encerrado."
+            ]
+        }
+    },
+    "Setor de Comunicação e Marketing": {
+        "Setor de Comunicação e Marketing": {
+            "Criação de Material": [
+                "A01: Quando o planejamento for aprovado.",
+                "A02: Abrir Trello.",
+                "A03: Abrir cartão do conteúdo.",
+                "A04: Montar o briefing.",
+                "A05: Criar material no Trello.",
+                "A06: Enviar para o designer.",
+                "A07: Receber retorno do designer.",
+                "A08: Verificar de há erros.",
+                "A09: Há erros?",
+                "CASO SIM: Ir para A10 e retornar para A07",
+                "CASO NÃO: Ir para A11 seguir leitura",
+                "A10: Solicitar ajuste para o designer.",
+                "A11: Realizar aprovação.",
+                "A12: Foi aprovada?",
+                "CASO SIM: Ir para A14 e seguir leitura",
+                "CASO NÃO: Ir para A13 e retornar para A07",
+                "A13: Solicitar ajuste ao designer",
+                "A14: O conteúdo será gráfico ou digital?",
+                "CASO GRÁFICO: Ir para A15 e pular para A17",
+                "CASO DIGITAL: Ir para A16 e seguir leitura",
+                "A15: Enivar solicitação para setor de compras",
+                "A16: Salvar arquivo na pasta dele",
+                "A17: Programar publicação ou lançamento",
+                "A18: Conteúdo criado e publicado",
+            ],
         }
     }
 };
@@ -866,26 +1076,26 @@ const descricaoDetalhada = {
     "A02: Receber programas (PGR)": "<img src='img/img-segurança/Doc. Preenchimento de EPI e Aplicação dos Programas de SST.png' style='width: 100%; height: auto;'>"
 };
 
+// Inicialização ao carregar a página
 document.addEventListener('DOMContentLoaded', () => {
-    // Garante que os modais e overlay estejam ocultos no carregamento
     document.getElementById('modal-overlay').style.display = 'none';
-    document.getElementById('add-process-modal').style.display = 'none';
-    document.getElementById('update-process-modal').style.display = 'none';
     document.getElementById('modal').style.display = 'none';
     loadAreas();
 });
 
+// Carregar áreas
 function loadAreas() {
     const areaSelect = document.getElementById('areas');
     areaSelect.innerHTML = '<option value="">Selecione uma área:</option>';
     Object.keys(data).forEach(area => {
         const option = document.createElement('option');
         option.value = area;
-        option.text = area;
+        option.textContent = area;
         areaSelect.appendChild(option);
     });
 }
 
+// Carregar cargos
 function loadCargos() {
     const area = document.getElementById('areas').value;
     const cargoSelect = document.getElementById('cargos');
@@ -893,11 +1103,10 @@ function loadCargos() {
     resetProcessDropdown();
 
     if (area) {
-        const cargos = Object.keys(data[area]);
-        cargos.forEach(cargo => {
+        Object.keys(data[area]).forEach(cargo => {
             const option = document.createElement('option');
             option.value = cargo;
-            option.text = cargo;
+            option.textContent = cargo;
             cargoSelect.appendChild(option);
         });
         cargoSelect.disabled = false;
@@ -906,6 +1115,7 @@ function loadCargos() {
     }
 }
 
+// Carregar processos
 function loadProcessos() {
     const area = document.getElementById('areas').value;
     const cargo = document.getElementById('cargos').value;
@@ -913,11 +1123,10 @@ function loadProcessos() {
     resetProcessDropdown();
 
     if (cargo) {
-        const processos = Object.keys(data[area][cargo]);
-        processos.forEach(processo => {
+        Object.keys(data[area][cargo]).forEach(processo => {
             const option = document.createElement('option');
             option.value = processo;
-            option.text = processo;
+            option.textContent = processo;
             processoSelect.appendChild(option);
         });
         processoSelect.disabled = false;
@@ -926,6 +1135,7 @@ function loadProcessos() {
     }
 }
 
+// Carregar detalhes do processo
 function loadDetalhes() {
     const area = document.getElementById('areas').value;
     const cargo = document.getElementById('cargos').value;
@@ -938,13 +1148,15 @@ function loadDetalhes() {
         etapas.forEach(etapa => {
             const li = document.createElement('li');
             li.textContent = etapa;
-            li.onclick = () => openModal(etapa);  // Abre o modal com a descrição detalhada
+            li.onclick = () => openModal(etapa);
             detalhesList.appendChild(li);
         });
-        
         document.getElementById('detalhes').style.display = 'block';
+    }
+
 
         // Mapeamento do nome do processo para a imagem do fluxograma correspondente
+        //SEGURANÇA 
         let fluxogramaUrl;
         if (processo === "Preenchimento de EPI e Aplicação dos Programas de SST") {
             fluxogramaUrl = 'img/img-segurança/Doc. Preenchimento de EPI e AplicaÃ§Ã£o dos Programas de SST (3) 05.01.2024 - Pedro Couto Diagrama.png';
@@ -962,6 +1174,7 @@ function loadDetalhes() {
             fluxogramaUrl = 'img/img-segurança/Doc. Treinamentos de SeguranÃ§a (3) 05.01.2024 - Pedro Couto Diagrama.png';
         } 
         
+        //COMERCIAL
         else if (processo === "Acompanhamento de Oportunidade") {
             fluxogramaUrl = 'img/img-comercial/DOC. ACOMPANHAMENTO DE OPORTUNIDADE (3) 27.02.2024 - MOZART MENDES Diagrama.png';
         } else if (processo === "Análise de Editais") {
@@ -976,6 +1189,7 @@ function loadDetalhes() {
             fluxogramaUrl = 'img/img-comercial/DOC. SUBSTITUIÃÃO DE PROFISSIONAIS DE CONTRATO VIGENTE TO BE (1) 22.02.2024 - ARTHUR MEDEIROS Diagrama.png';
         } 
         
+        //PLANEJAMENTO
         else if (processo === "Assessoria nos Planejamentos dos Contratos") {
             fluxogramaUrl = 'img/img-planejamento/DOC. ASSESSORIA NOS PLANEJAMENTOS DOS CONTRATOS (1) 18.12.23 - ARTHUR MEDEIROS Diagrama.png';
         } else if (processo === "Atualização de Status dos Contratos") {
@@ -988,6 +1202,7 @@ function loadDetalhes() {
             fluxogramaUrl = 'img/img-planejamento/Doc. PrevisÃ£o do acompanhamento de despesas e receitas dos contratos (1) 17.07.2024 - Breno Diagrama.png';
         } 
 
+        //ADM E FINANCEIRO
         else if (processo === "Atendimento de Demanda de Informações Financeiras") {
             fluxogramaUrl = 'img/img-adm_fin/DOC. ATENDIMENTO DE DEMANDA DE INFORMAÃÃES FINANCEIRAS TO BE (1) 02.04.24 - ARTHUR MEDEIROS Diagrama.png';
         } else if (processo === "Processamento de Pagamento de Demandas Específicas") {
@@ -1030,6 +1245,7 @@ function loadDetalhes() {
             fluxogramaUrl = 'img/img-adm_fin/DOC. REUNIÃO DE PLANEJAMENTO DE FLUXO DE CAIXA TO BE (2) 02.04.24 - ARTHUR MEDEIROS Diagrama.png';
         } 
 
+        //ADM E COMPRAS
         else if (processo === "Inclusão de Contrato no Sistema") {
             fluxogramaUrl = 'img/img-adm_compras/DOC. INCLUSÃO DE CONTRATO NO SISTEMA (2) 05.01.2024 - ROBERTA ZIRPOLI Diagrama.png';
         } else if (processo === "Lançamento de Notas e Faturas dos Fornecedores") {
@@ -1050,8 +1266,35 @@ function loadDetalhes() {
             fluxogramaUrl = 'img/img-adm_compras/DOC. REALIZAR FATURAMENTO DAS MEDIÃÃES (1) 06.02.2024 - MOZART MENDES Diagrama.png';
         } else if (processo === "Solicitação de Envio de Material pelo Correios") {
             fluxogramaUrl = 'img/img-adm_compras/DOC. SOLICITAÃÃO DE ENVIO DE MATERIAL PELO CORREIOS (2) 14.12.23 - ARTHUR MEDEIROS Diagrama.png';
-        } 
+        } else if (processo === "Assinatura de Documentos") {
+            fluxogramaUrl = 'img/img-adm_compras/Doc. Assinatura de Documentos (2) 16.12.2023 - Pedro Couto Diagrama.png';
+        } else if (processo === "Autorização de Pagamentos e Transferências") {
+            fluxogramaUrl = 'img/img-adm_compras/Doc. AutorizaÃ§Ã£o de Pagamentos e TransferÃªncias (2) 16.12.2023 - Pedro Couto Diagrama.png';
+        } else if (processo === "Rateio de Passagens e Hospedagens") {
+            fluxogramaUrl = 'img/img-adm_compras/Doc. Rateio de Passagens e Hospedagens (2) 16.12.2023 - Pedro Couto Diagrama.png';
+        }
         
+        //TI
+        else if (processo === "Bloqueio ou Redirecionamento de Conta") {
+            fluxogramaUrl = 'img/img-ti/Doc. ConfiguraÃ§Ã£o de Equipamento (2) 21.12.2023 - Lucas Galindo Diagrama.png';
+        } else if (processo === "Configuração de Equipamento") {
+            fluxogramaUrl = 'img/img-ti/DOC. LANÃAMENTO DE NOTAS E FATURAS DOS FORNECEDORES (2) 05.01.2024 - MOZART MENDES  Diagrama.png';
+        } else if (processo === "Encerramento de Contrato") {
+            fluxogramaUrl = 'img/img-ti/Doc. Encerramento de contrato (1) 10.07.2024 - Breno FranÃ§a e Arthur Alves Diagrama.png';
+        } else if (processo === "Início de Contrato") {
+            fluxogramaUrl = 'img/img-ti/DOC. INÃCIO DO CONTRATO (2) 10.07.2024 - EDUARDO GODOY Diagrama (1).png';
+        } else if (processo === "Lançamento de Nota Fiscal e Fatura de Software e Telefonia") {
+            fluxogramaUrl = 'img/img-ti/Doc. LanÃ§amento de Nota Fiscal e Fatura de Software e Telefonia (2) 21.12.2023 - Lucas Galindo Diagrama.png';
+        } else if (processo === "Manutenção dos Equipamentos de TI") {
+            fluxogramaUrl = 'img/img-ti/Doc. ManutenÃ§Ã£o das MÃ¡quinas da Empresa (1) 21.12.2023 - Lucas Galindo Diagrama.png';
+        } else if (processo === "Monitoramento de Contrato") {
+            fluxogramaUrl = 'img/img-ti/Doc. Monitoramento de contrato (1) 10.07.2024 - Breno FranÃ§a e Arthur Alves Diagrama.png';
+        } else if (processo === "Renovação de Licenças Atuais") {
+            fluxogramaUrl = 'img/img-ti/Doc. RenovaÃ§Ã£o de LicenÃ§as Anuais (2) 21.12.2023 - Lucas Galindo Diagrama.png';
+        } else if (processo === "Suporte Técnico aos Colaboradores") {
+            fluxogramaUrl = 'img/img-ti/Doc. Suporte TÃ©cnico aos Colaboradores (1) 21.12.2023 - Lucas Galindo Diagrama.png';
+        }
+
         else {
             fluxogramaUrl = null;
         }
@@ -1067,7 +1310,7 @@ function loadDetalhes() {
             fluxogramaContainer.style.display = 'none';  // Ocultar o container se não houver imagem
         }
     }
-}
+
 
 function resetProcessDropdown() {
     const processoSelect = document.getElementById('processos');
@@ -1103,7 +1346,7 @@ function addNewProcess() {
     const area = document.getElementById('new-area').value.trim();
     const role = document.getElementById('new-role').value.trim();
     const process = document.getElementById('new-process').value.trim();
-    const steps = document.getElementById('new-steps').value.split(',').map(step => step.trim());
+    const steps = document.getElementById('new-steps').value.split(';').map(step => step.trim());
 
     if (!area || !role || !process || steps.length === 0) {
         alert('Preencha todos os campos.');
@@ -1120,7 +1363,6 @@ function addNewProcess() {
     data[area][role][process] = steps;
 
     alert('Processo adicionado com sucesso!');
-    saveDataToLocalStorage(); // Salvar no localStorage
     closeAddModal();
     loadAreas(); // Atualizar os dropdowns
 }
@@ -1196,7 +1438,7 @@ function updateProcess() {
     const area = document.getElementById('update-area').value;
     const role = document.getElementById('update-role').value;
     const process = document.getElementById('update-process').value;
-    const steps = document.getElementById('update-steps').value.split(',').map(step => step.trim());
+    const steps = document.getElementById('update-steps').value.split(';').map(step => step.trim());
 
     if (!area || !role || !process || steps.length === 0) {
         alert('Preencha todos os campos.');
@@ -1206,7 +1448,6 @@ function updateProcess() {
     data[area][role][process] = steps;
 
     alert('Processo atualizado com sucesso!');
-    saveDataToLocalStorage(); // Salvar no localStorage
     closeUpdateModal();
     loadAreas();
 }
@@ -1239,9 +1480,6 @@ function deleteProcess() {
         delete data[area]; // Remover a área se não tiver mais cargos
     }
 
-    // Salvar a alteração no localStorage
-    saveDataToLocalStorage();
-
     alert(`O processo "${process}" foi excluído com sucesso.`);
     closeUpdateModal();
     loadAreas(); // Atualizar os dropdowns
@@ -1258,7 +1496,5 @@ function closeOverlay() {
 
 // Carregar dados ao carregar a página
 document.addEventListener('DOMContentLoaded', () => {
-    loadDataFromLocalStorage();
     loadAreas();
 });
-
